@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  netcoresamplewebapp:
+    image: netcoresamplewebapp
+    build:
+      context: .
+      dockerfile: NetCoreSampleWebApp\Dockerfile
